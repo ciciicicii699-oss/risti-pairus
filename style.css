@@ -1,0 +1,271 @@
+/* HALAMAN KEDUA UNDANGAN */
+.invitation-page {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px 18px;
+    background: #fffdf5;
+    border: 2px solid #f1dfaa;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(150, 120, 50, 0.12);
+    color: #75613d;
+    box-sizing: border-box;
+}
+
+.invitation-page h1 {
+    color: #a98536;
+    font-size: 38px;
+    margin: 12px 0;
+}
+
+.invitation-page h2 {
+    color: #a98536;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.invitation-page .subtitle {
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.invitation-page .flower {
+    font-size: 35px;
+    margin: 15px;
+}
+
+.invitation-page .date {
+    color: #a98536;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.detail-box {
+    background: #fff7df;
+    border: 1px solid #f0dfb5;
+    border-radius: 18px;
+    padding: 22px 16px;
+    margin: 22px 0;
+}
+
+.detail-box p {
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.detail-box iframe {
+    margin-top: 12px;
+}
+
+.detail-box input,
+.detail-box select,
+.detail-box textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    margin: 12px 0;
+    border: 1px solid #e5d3a5;
+    border-radius: 12px;
+    background: #fffdf8;
+    color: #75613d;
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+
+.detail-box textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.detail-box button {
+    width: 100%;
+    margin-top: 8px;
+}
+
+#guestList {
+    margin-top: 20px;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+#guestList h3 {
+    color: #a98536;
+    text-align: center;
+}
+
+.closing {
+    color: #a98536;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+    .invitation-page {
+        padding: 20px 13px;
+    }
+
+    .invitation-page h1 {
+        font-size: 30px;
+    }
+}
+/* SENTUHAN ESTETIK UNDANGAN */
+
+.invitation-page {
+    position: relative;
+    overflow: hidden;
+}
+
+.detail-box {
+    box-shadow: 0 4px 12px rgba(170, 140, 75, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.detail-box:hover {
+    transform: translateY(-3px);
+}
+
+.detail-box button {
+    background: linear-gradient(135deg, #d9b968, #b99143);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 13px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.detail-box button:hover {
+    background: #a98536;
+    transform: scale(1.02);
+}
+
+.closing {
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+#guestList div {
+    background: #fffdf5;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 12px;
+    border: 1px solid #f0dfb5;
+}
+.music-button {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 13px 22px;
+    background: #e8d39c;
+    color: #765d2e;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.music-button:hover {
+    background: #d6bd7d;
+    transform: scale(1.05);
+}
+/* FOTO KENANGAN RISTI */
+
+.memory-section {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.memory-section h2 {
+    color: #a98536;
+}
+
+.memory-section p {
+    color: #75613d;
+    font-size: 14px;
+}
+
+.memory-gallery {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.memory-gallery img {
+    width: 48%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 3px solid #f0dfb5;
+    box-shadow: 0 5px 15px rgba(150, 120, 50, 0.12);
+}
+.letter-box {
+    background: #fffaf0;
+    border: 1px solid #e8d7ad;
+    border-radius: 20px;
+    padding: 25px 20px;
+    margin: 25px 0;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(150,120,50,0.10);
+}
+
+.letter-icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.letter-box h2 {
+    color: #a98536;
+    margin-bottom: 20px;
+}
+
+.letter-box p {
+    color: #75613d;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.letter-sign {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.letter-decoration {
+    font-size: 22px;
+    letter-spacing: 8px;
+    margin-bottom: 12px;
+    animation: floatFlower 3s ease-in-out infinite;
+}
+
+.letter-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.letter-box::before {
+    content: "✿";
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    color: #d9bd7e;
+    font-size: 23px;
+    opacity: 0.6;
+}
+
+.letter-box::after {
+    content: "✿";
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    color: #d9bd7e;
+    font-size: 23px;
+    opacity: 0.6;
+}
+
+@keyframes floatFlower {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
